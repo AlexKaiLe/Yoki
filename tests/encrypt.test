@@ -1,0 +1,8 @@
+INPUT
+encrypt scrambled eggs
+OUTPUT
+Encryption key: scrambled
+Original message: eggs
+Encrypted message: l7AJBsbwMzBjUMxzWsLRaA==
+Decrypted message: eggs
+END

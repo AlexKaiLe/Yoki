@@ -1,0 +1,5 @@
+INPUT
+data data/smallData.sqlite
+OUTPUT
+Reading data from data/smallData.sqlite
+END

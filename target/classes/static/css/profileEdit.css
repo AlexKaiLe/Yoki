@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Quicksand;
+    font-size: 1.75vw;
+}
+
+#profile {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}
+
+#main {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 7vw;
+    margin-left: 4vw;
+}
+
+#inputs {
+    display: grid;
+    grid-template-columns: 17vw 17vw;
+    grid-template-rows: 6vw 6vw 6vw 1fr;
+    height: 35vw;
+    width: 40vw;
+    margin-left: 5vw;
+    color: var(--sixth);
+}
+
+input {
+    height: 2vw;
+    width: 13vw;
+    border-radius: 1vw;
+    padding-left: .5vw;
+    border: none;
+    background-color: #f1f1f1;
+    vertical-align: text-top;
+}
+
+#save {
+    border: none;
+    float: right;
+}
+
+#first {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#last {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#gradYear {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#major {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#email {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+#emailInput {
+    width: 30vw;
+}
+
+#bio {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#bioBox {
+    border-radius: 1vw;
+    height: 15vw;
+    width: 30vw;
+    padding-left: .5vw;
+    background-color: #f1f1f1;
+
+}
+
+h2 {
+    margin-left: 25vw;
+    width: 15vw;
+    height: 4vw;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#picture {
+    height: 30vw;
+    width: 30vw;
+    top: 118px;
+    border-radius: 30px;
+}
+
+#match-button.save {
+    height: 5vw;
+    width: 15vw;
+    border-radius: 1vw;
+    margin-left: 15vw;
+    margin-top: 0;
+}
+
+#match-button.changePic {
+    height: 6vw;
+    width: 6vw;
+    border-radius: 10vw;
+    transform: translate(120%, -25%);
+    padding: 0;
+}
+
+#camera {
+    height: 4vw;
+    width: 4vw;
+}
+
+#text {
+    transform: translate(75%, -400%);
+    height: 3vw;
+    width: 20vw;
+}

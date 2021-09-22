@@ -1,0 +1,37 @@
+INPUT
+data data/smallData.sqlite
+naive 10 1
+OUTPUT
+Reading data from data/smallData.sqlite
+6, 4, 10, 0, 0, 0, 0, 0, 0, 0
+id: 2, first_name: Sage, last_name: Matsushima, email: sage_matsushima@brown.edu, password: KDrrx1EES21l9FLp5/7Tjr0A858UaSmWVesuRWVdw+E=, year: 2023.0
+Interest Levels: 10, 10, 10, 0, 0, 0, 0, 0, 0, 0
+
+id: 56, first_name: Barbie, last_name: Arrol, email: barbie_arrol@brown.edu, password: 55eZKQpxmni0tgPqfZlxjXEHOr8Wo2KUQ5h2y/pl2vQ=, year: 2022.0
+Interest Levels: 4, 1, 10, 9, 4, 4, 10, 2, 0, 0
+
+id: 23, first_name: Frederico, last_name: Wimlett, email: frederico_wimlett@brown.edu, password: vO6Ns+2vN8cnNuFky8yfASfzFCPJ8slhl9KIhjS3m+k=, year: 2021.0
+Interest Levels: 9, 1, 9, 0, 2, 0, 0, 0, 0, 0
+
+id: 22, first_name: Glynn, last_name: Dalgliesh, email: glynn_dalgliesh@brown.edu, password: Ltuyhp2JORz04pJzAtalqiQIHTYsxDi1+SI05mSzvro=, year: 2024.0
+Interest Levels: 6, 0, 9, 0, 0, 10, 0, 0, 0, 0
+
+id: 78, first_name: Fran, last_name: Romaine, email: fran_romaine@brown.edu, password: X18bxdMIsXmf1lJMvRbeDvJqxi6JMTvz6GSryfX8YIg=, year: 2021.0
+Interest Levels: 10, 0, 9, 4, 0, 8, 0, 0, 8, 0
+
+id: 10, first_name: Laryssa, last_name: Keppe, email: laryssa_keppe@brown.edu, password: X9pziVMqCQ1FUVWXBVDQ/AKQ4f88tS0h9hSSZg4dat8=, year: 2023.0
+Interest Levels: 0, 4, 10, 5, 7, 9, 2, 7, 0, 6
+
+id: 89, first_name: Gianina, last_name: Jaggers, email: gianina_jaggers@brown.edu, password: fbko+nGeKud2yXv6JlBkhHSEe8v7Awm3KiW+f/t4SKs=, year: 2023.0
+Interest Levels: 10, 2, 8, 1, 0, 6, 2, 0, 10, 0
+
+id: 65, first_name: Luella, last_name: Sawkins, email: luella_sawkins@brown.edu, password: RJFFD0SbjtH4AbzGTbekP53s2pOAF+hzC0kQYSxMxHs=, year: 2021.0
+Interest Levels: 10, 5, 7, 10, 0, 3, 0, 6, 0, 4
+
+id: 36, first_name: Chrystel, last_name: Morrissey, email: chrystel_morrissey@brown.edu, password: BwPne8Ysi9h0tLGfqvQlzX/hM5x2vIG3zayQLtsDlW8=, year: 2024.0
+Interest Levels: 6, 0, 8, 0, 0, 8, 0, 6, 9, 2
+
+id: 46, first_name: Janith, last_name: Itzcovichch, email: janith_itzcovichch@brown.edu, password: PZRGGXzRL7ueXSo8n4+jdXkQxddZdwI1VK+NZ2TnGe4=, year: 2024.0
+Interest Levels: 0, 9, 9, 7, 0, 6, 0, 6, 0, 0
+
+END

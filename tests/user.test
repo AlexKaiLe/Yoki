@@ -1,0 +1,9 @@
+INPUT
+data data/smallData.sqlite
+user 1
+OUTPUT
+Reading data from data/smallData.sqlite
+id: 1, first_name: Ian, last_name: Acosta, email: ian_henry_acosta@brown.edu, password: EUrEJTE7xGxghgdUmIqY7b2PrY3JoMWmTOXtubchitk=, year: 2023.0
+Interest Levels: 6, 4, 10, 0, 0, 0, 0, 0, 0, 0
+
+END

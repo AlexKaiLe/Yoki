@@ -1,0 +1,7 @@
+INPUT
+data data/smallData.sqlite
+interests 1
+OUTPUT
+Reading data from data/smallData.sqlite
+6, 4, 10, 0, 0, 0, 0, 0, 0, 0
+END
