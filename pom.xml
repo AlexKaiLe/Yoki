@@ -128,7 +128,11 @@
   <build>
     <testSourceDirectory>src/test/java</testSourceDirectory>
     <plugins>
-
+      <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>3.0.3</version>
+      </plugin>
       <!-- Maven compiler plugin for compiling Java 11 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
