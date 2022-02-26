@@ -1,0 +1,121 @@
+#login-div, .lightDark {
+    background-color: var(--third);
+    width: 500px;
+    border-radius: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border: 20px solid var(--third);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+}
+
+#login-button, .lightDark {
+    background-color: var(--fourth);
+    color: var(--sixth);
+    width: 470px;
+    height: 7vh;
+    display: table;
+    margin: 0 auto;
+
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#login-button:hover {
+    cursor: pointer;
+}
+
+#login-button p {
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    opacity: 100;
+}
+
+#login-button:focus {
+    outline: 0;
+}
+
+input, textarea, #signup-year, .lightDark {
+    font-family: Quicksand;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 2vw;
+    width: 455px;
+    border-radius: 1vw;
+    border: 10px solid white;
+    vertical-align: center;
+}
+
+.no-account {
+    display: inline-block;
+}
+
+#signup-redir-wrapper {
+    text-align: center;
+}
+
+#signup-link, .lightDark {
+    color: var(--sixth);
+}
+
+#signup-year {
+    width: 150px;
+}
+
+#signup-year {
+    height: 3vw;
+}
+
+#logo-login {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 150px;
+    filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
+}
+
+.container {
+    width: 100%;
+}
+
+#login-password, #signup-bio {
+    margin-bottom: 15px;
+}
+
+#login-status {
+    color: #b50f0f;
+    margin-bottom: 25px;
+    opacity: 0;
+    font-size: 15px;
+}
+
+#signup-status {
+    color: #b50f0f;
+    margin-bottom: 25px;
+    opacity: 0;
+    font-size: 15px;
+}
+
+#signup-div, .lightDark {
+    background-color: var(--third);
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 20px solid var(--third);
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+}
+
+#login-fields {
+    display: table;
+    margin: 0 auto;
+}
