@@ -1,15 +1,3 @@
-# cs0320 Term Project 2021
-
-**Team Members:**<br/>
-Ian Acosta (iacosta1), Alex Le (ale22), Delora Li (dli65), Sage Matsushima (smatsush)
-
-**Team Strengths and Weaknesses:** <br/>
-Languages: Python, Java, HTML/CSS/Javascript, React.JS <br/>
-Weaknesses: Concepts/Languages: Spark server (with React.JS), Caching, Docker
-
-
-**Project Idea(s):** 
-### Idea 1
 _Interest Connection App_ <br/>
 A platform on which people can connect with strangers with similar interests and hobbies. 
 As a result of this pandemic, it has been hard to build meaningful connections with others. 
@@ -24,48 +12,6 @@ Extra addons:<br/>
 • Create a robust video chat feature<br/>
 • Have a venter/listener feature<br/>
 • Map number of connections you have with others<br/>
-
-**HTA Approval (dpark20):** Idea approved - make sure your algorithm is complex!
-
-### Idea 2 <br/>
-_Schedule Concentration Planner_ <br/>
-A website where students can log their classes and concentrations in, and they can see the 
-overall difficulty of their semester, the classes they still need to take to meet their 
-concentration, and which classes satisfy which requirements. They can also search up and add 
-classes to their course load, seeing how different ones would impact their semester.
-<br/>
-We would need to parse information from Critical Review, looking at time required, difficulty, 
-and overall rating on the course and on professors.
-
-**HTA Approval (dpark20):** Idea not approved - not enough algorithmic complexity as of now. Feel free to add more details if you'd like to do this idea.
-
-### Idea 3
-_Marketplace App_ <br/>
-Students can sign up and create an account to buy and sell items. A buyer can click on either
-an “interested” button or “buy now” button. The seller will get a notification and they can 
-message each other about how they will deal with their exchange. When both parties agree on a 
-trade, both students can retrieve each other's information (which they can decide to show or not)
-such as their name, email, dorm, mailing address, etc. Sellers are required to upload pictures 
-of their items. In addition, the seller will have to specify how they want their payment to 
-be made (i.e. cash, venmo, paypal, etc.) <br/>
-When a buyer clicks on “interested” they item will be put on hold for a certain amount of 
-time (probably a day) where they can talk about the item with the seller. Once the exchange 
-is done, both the seller and buyer will be asked about their experience.
-
-**HTA Approval (dpark20):** Idea not approved for same reason as above.
-
-Good ideas - make sure to add more if you'd like to pursue Ideas 2 or 3. Good luck! :)
-
-**Mentor TA:** _Put your mentor TA's name and email here once you're assigned one!_
-
-## Meetings
-_On your first meeting with your mentor TA, you should plan dates for at least the following meetings:_
-
-**Specs, Mockup, and Design Meeting:** _(Schedule for on or before March 15)_
-
-**4-Way Checkpoint:** _(Schedule for on or before April 5)_
-
-**Adversary Checkpoint:** _(Schedule for on or before April 12 once you are assigned an adversary TA)_
 
 ## How to Build and Run
 
@@ -106,7 +52,6 @@ file, which can only be accessed by a file reader. With the cypher key in a sepa
 grading, the `key.txt` file will be added to the Github repository)
 
 Lastly, the database will store all passwords as encrypted values. 
-
 
 ### Backend
 #### REPL
@@ -155,29 +100,35 @@ If the user has not logged in during their session, they will be redirected to t
 page no matter which page they try to visit (except the signup page). This prevents people from performing any 
 activity and potentially ruining user-specific logic without logging in first. In addition, 
 if the user has not made an account yet, they can redirect themselves to the signup page.
+
 #### Signup
 The signup page only asks for basic information of the user, which are all required to be filled before
 signing up. In addition, the email is first checked if it ends with `@brown.edu` since we intended
 this application to only be used within the Brown community. In addition, the program checks if the specified
 email is already in the database before actually adding a new user to prevent duplicate users.
+
 #### Main
 The main page is where the user is able to match or pass a suggested user who they have the most common interests with.
 Each suggested user that is displayed will have most of their basic information showed as well as their top common
 interests with the current user.
+
 #### Matches
 The matches page includes a list of all the users that a user has clicked "match" on. If the user clicks
 on one of their matches, they are able to view all of their basic information, contact them, as well as unmatch
 with them. 
+
 #### Profile Overview
 The profile overview page displays all of the user's basic information and list of intersests. Here, the user is
 able to add/remove/modify any interests and save it to the database. Once the user saves any modifications on their
 interests, the KDTree of best matches will be constructed again in the back end. 
 
 In addition, the user is able to navigate to the profile edit page.
+
 #### Profile Edit
 The profile edit page allows the user to modify all of their basic information as well as their profile picture.
 The images can be modified by a link to an online image. If the image is an invalid image, then the profile image
 will remain the same in the front end and database (error checking).
+
 #### Settings
 The settings page includes a log out function, which redirects the user to the login page and resets the backend's 
 user-specific logic. In additon, the user can view the terms and conditions, change between light
