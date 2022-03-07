@@ -4,7 +4,8 @@
 
 Languages and programs used:
 - JavaSrcipt 
-- Java 
+- Java
+- HTML 
 - CSS 
 - Maven
 
