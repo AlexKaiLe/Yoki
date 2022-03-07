@@ -1,7 +1,12 @@
 # README
 
+![](yellowLogo.png)
+
 Languages and programs used:
-- 
+- JavaSrcipt 
+- Java 
+- CSS 
+- Maven
 
 ## How to Build and Run
 
