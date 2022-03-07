@@ -1,5 +1,8 @@
 # README
 
+Languages and programs used:
+- 
+
 ## How to Build and Run
 
 #### Tests
@@ -13,8 +16,6 @@ Run `mvn package` to compile.
 Then run `./run --gui 4567` from root project directory to run program with the GUI.
 To view the GUI, navigate to `http://localhost:4567/yoki` in your local browser.
 To exit, press `CMD+D`
-
-![Video of a run through of the Yoki website program](runthrough)
 
 ## Project Overview
 Our project is called Yoki, a web application that focuses on connecting people based on similar interests. 
@@ -75,3 +76,36 @@ The profile edit page allows the user to modify all of their basic information a
 
 #### Settings
 The settings page includes a log out function, which redirects the user to the login page and resets the backend's  user-specific logic. In additon, the user can view the terms and conditions, change between light and dark mode, and report other users. For the report section, the user is asked to input the email of the person that they are reporting and the program will check if the specified email exists (error checking).
+
+Login page
+![](1.png)
+Sign up page
+![](2.png)
+Sign up page continued
+![](3.png)
+Home page (match or pass)
+![](4.png)
+Your matches page
+![](5.png)
+Detailed information about each match
+![](6.png)
+My profile page
+![](7.png)
+Searching for interests on profile page
+![](8.png)
+Edit profile page
+![](9.png)
+Adjusting sliding interest bars on profile page
+![](10.png)
+Remove interest on profile page
+![](11.png)
+Setting page logout
+![](12.png)
+Setting page terms and conditions
+![](13.png)
+Setting page report users
+![](14.png)
+Setting page dark/light mode
+![](15.png)
+Setting page dark/light mode logout
+![](15.png)
