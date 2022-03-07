@@ -187,7 +187,7 @@ function termsConditions() {
         "Yoki welcomes your questions or comments regarding the Terms:\n" +
         "Yoki\n" +
         "California\n" +
-        "Email Address: alexander_le@brown.edu\n" +
+        "Email Address: alexander_li@brown.edu\n" +
         "Telephone number: (425)-698-7955\n" +
         "Effective as of April 20, 2021\n" +
         "\n";

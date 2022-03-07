@@ -7,7 +7,7 @@
                    value="alexander_le@brown.edu"><br>
 
             <label for="psw"><b>Password</b></label><br>
-            <input type="password" placeholder="Enter Password" name="psw" required id="login-password" value="123"><br>
+            <input type="password" placeholder="Enter Password" name="psw" required id="login-password" value="789"><br>
         </div>
 
         <div id="login-status">Incorrect login information!</div>
