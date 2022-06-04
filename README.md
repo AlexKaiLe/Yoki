@@ -108,4 +108,5 @@ Report page allows people to report people that do not adhere to the community g
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/8_report.gif)
 
 Login page if you do not already have a user account:
+
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/9_login.gif)
