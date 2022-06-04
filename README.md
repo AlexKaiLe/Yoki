@@ -83,13 +83,36 @@ The profile edit page allows the user to modify all of their basic information a
 #### Settings
 The settings page includes a log out function, which redirects the user to the login page and resets the backend's  user-specific logic. In additon, the user can view the terms and conditions, change between light and dark mode, and report other users. For the report section, the user is asked to input the email of the person that they are reporting and the program will check if the specified email exists (error checking).
 
+Login and homepage where you can view all of your matches:
 
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/1_match.gif)
+
+Matches homepage functionality where you can view people’s profile, copy their contact information and unmatch them:
+
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/2_unmatch.gif)
+
+Personal profile page where you can update your interests by selecting the type and degree of interest:
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/3_interests.gif)
+
+Homepage updates profiles based on your updates interests:
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/4_new_match.gif)
+
+Profile page where you can update your names, major, graduation year, email, bio and picture:
+
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/5_update.gif)
+
+Home page updates based on new interests (ie. Drawing):
+
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/6_drawing.gif)
+
+Setting page where you can logout, enter dark/light mode, view terms and conditions, and report people:
+
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/7_settings.gif)
+
+Report page allows people to report people that do not adhere to the community guidelines:
+
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/8_report.gif)
+
+Login page if you do not already have a user account:
+
 ![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/9_login.gif)
