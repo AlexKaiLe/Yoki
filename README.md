@@ -83,5 +83,13 @@ The profile edit page allows the user to modify all of their basic information a
 #### Settings
 The settings page includes a log out function, which redirects the user to the login page and resets the backend's  user-specific logic. In additon, the user can view the terms and conditions, change between light and dark mode, and report other users. For the report section, the user is asked to input the email of the person that they are reporting and the program will check if the specified email exists (error checking).
 
-Login page
-![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/interests.gif)
+
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/1_match.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/2_unmatch.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/3_interests.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/4_new_match.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/5_update.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/6_drawing.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/7_settings.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/8_report.gif)
+![](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/9_login.gif)
