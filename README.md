@@ -85,33 +85,3 @@ The settings page includes a log out function, which redirects the user to the l
 
 Login page
 ![]([gifs/interets.gif](https://github.com/AlexKaiLe/Yoki/blob/master/gifs/interests.gif))
-Sign up page
-![](2.png)
-Sign up page continued
-![](3.png)
-Home page (match or pass)
-![](4.png)
-Your matches page
-![](5.png)
-Detailed information about each match
-![](6.png)
-My profile page
-![](7.png)
-Searching for interests on profile page
-![](8.png)
-Edit profile page
-![](9.png)
-Adjusting sliding interest bars on profile page
-![](10.png)
-Remove interest on profile page
-![](11.png)
-Setting page logout
-![](12.png)
-Setting page terms and conditions
-![](13.png)
-Setting page report users
-![](14.png)
-Setting page dark/light mode
-![](15.png)
-Setting page dark/light mode logout
-![](15.png)
