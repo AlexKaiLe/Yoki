@@ -84,7 +84,7 @@ The profile edit page allows the user to modify all of their basic information a
 The settings page includes a log out function, which redirects the user to the login page and resets the backend's  user-specific logic. In additon, the user can view the terms and conditions, change between light and dark mode, and report other users. For the report section, the user is asked to input the email of the person that they are reporting and the program will check if the specified email exists (error checking).
 
 Login page
-![](1.png)
+![](gifs/interets.gif)
 Sign up page
 ![](2.png)
 Sign up page continued
